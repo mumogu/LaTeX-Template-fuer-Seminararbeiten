@@ -1,0 +1,45 @@
+% Document Class muss zuerst definiert werden.
+\documentclass[12pt, a4paper]{scrartcl}
+
+\usepackage{fancyhdr}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{parcolumns}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{mathabx}
+\usepackage{mathdots}
+\usepackage{dsfont}
+\usepackage{ulem}
+\usepackage{listings}
+\usepackage{microtype}		% Für hängende Punktuation
+
+% Verhindert, dass der untere Rand der Seite mit Whitespace ausgeglichen wird.
+\raggedbottom
+
+% Zeilenabstand einstellen
+\onehalfspacing
+
+% Eigenen Seitenstil aktivieren
+\pagestyle{fancy} 
+
+% Alle Kopf- und Fußzeilenfelder bereinigen
+\fancyhf{} 
+
+% Obere Trennlinie
+\renewcommand{\headrulewidth}{0.7pt} 
+
+% Seitennummer unten in der Mitte 
+\fancyfoot[C]{\thepage} 
+
+\geometry{a4paper, portrait, left=2cm, right=2cm, top=2cm, bottom=2cm, head=2cm, foot=1cm}
